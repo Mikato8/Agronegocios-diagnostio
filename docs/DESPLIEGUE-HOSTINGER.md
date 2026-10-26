@@ -138,6 +138,14 @@ chmod -R u+rwX,go+rX storage public/uploads
 find storage public/uploads -type d -exec chmod 775 {} \;
 ```
 
+> **Permisos que importan.** El archivo `.htaccess` y `public/index.php` deben ser legibles por el servidor web (`644`); si se suben como `600`, Apache/LiteSpeed no procesa las reglas y el sitio devuelve 403/404. Tras extraer el paquete ejecuta:
+>
+> ```bash
+> find . -type d -exec chmod 755 {} \;
+> find . -type f -exec chmod 644 {} \;
+> chmod 600 .env
+> ```
+
 ## 7. Verificación
 
 ```bash
