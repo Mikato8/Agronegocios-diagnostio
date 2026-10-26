@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AgroNegocios MX">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c523c"/>
+      <stop offset="1" stop-color="#0e2a1f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7a63f"/>
+      <stop offset="1" stop-color="#f0cf8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+  <path d="M32 49V27" stroke="#eaf3e6" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M32 34c-6.2 0-10-3.6-10-9.4 6.2 0 10 3.6 10 9.4Z" fill="url(#gold)"/>
+  <path d="M32 28c0-6.2 3.8-9.8 10-9.8 0 6.2-3.8 9.8-10 9.8Z" fill="#8fbf8a"/>
+  <path d="M32 40c-5 0-8.2-2.8-8.2-7.6 5 0 8.2 2.8 8.2 7.6Z" fill="#8fbf8a"/>
+  <path d="M32 45c0-5.6 3.4-8.8 9-8.8 0 5.6-3.4 8.8-9 8.8Z" fill="url(#gold)"/>
+  <path d="M42 22l7-7m0 0h-6m6 0v6" stroke="#f3d99f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
