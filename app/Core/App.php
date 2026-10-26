@@ -38,7 +38,7 @@ final class App
 
         try {
             $html = View::render('errors.error', [
-                'title' => $status . ' · AgroDiagnóstico',
+                'title' => $status . ' · AgroNegocios MX',
                 'metaDescription' => $message,
                 'status' => $status,
                 'message' => $message,
